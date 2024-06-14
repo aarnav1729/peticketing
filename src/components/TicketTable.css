@@ -1,0 +1,18 @@
+/* src/components/TicketTable.css */
+.ticket-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .ticket-table th,
+  .ticket-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .ticket-table th {
+    background: #333;
+    color: white;
+  }
+  

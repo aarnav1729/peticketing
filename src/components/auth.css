@@ -1,0 +1,96 @@
+/* src/components/auth.css */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    position: relative;
+  }
+  
+  .auth-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px; 
+    max-width: 100px;
+  }
+  
+  .auth-form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .auth-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .auth-form div {
+    margin-bottom: 15px;
+  }
+  
+  .auth-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .auth-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .auth-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #0E6CB0, #57AE54);
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .auth-form button:hover {
+    background: linear-gradient(90deg, #57AE54, #0E6CB0);
+  }
+  
+  .auth-tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .auth-tabs button {
+    flex: 1;
+    padding: 10px;
+    background: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    color: #333; 
+  }
+  
+  .auth-tabs button.active {
+    background: linear-gradient(90deg, #0E6CB0, #57AE54);
+    color: white;
+  }
+  
+  .auth-tabs button:not(.active) {
+    background: #ddd; 
+    color: #333; 
+  }
+  
+  .auth-tabs button:not(:last-child) {
+    margin-right: 10px;
+  }
+  

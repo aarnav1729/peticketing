@@ -1,0 +1,50 @@
+/* src/App.css */
+.app {
+  display: flex;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+.new-ticket-button {
+  background: #00aaff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+/* src/App.css */
+.auth-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  margin-bottom: 5px;
+}
+
+form input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+form button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
